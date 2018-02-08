@@ -9,10 +9,14 @@
     "start": "webpack-dev-server"
   },
   "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "css-loader": "^0.28.4",
     "html-webpack-plugin": "^2.29.0",
     "path": "^0.12.7",
+    "postcss": "^6.0.6",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "style-loader": "^0.18.2",
     "styled-components": "^2.1.1",
     "webpack": "^3.2.0",
     "webpack-dev-server": "^2.5.1"

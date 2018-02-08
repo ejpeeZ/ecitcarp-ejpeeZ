@@ -5,8 +5,8 @@ const OuterDiv = styled.div`
 	background-color: blue;
 	color: white;
 	padding: 16px 8px;
-	width: 50%;
-	margin: auto;
+	width: 100%;
+	margin: 8px 2px;
 `
 
 const InnerDiv = styled.div`
@@ -34,11 +34,11 @@ export default class TextBox extends React.Component {
 		return(
 			<OuterDiv>
 				<BoxHeader>
-					I am an awesome box!
+					{ this.props.boxTitle }
 				</BoxHeader>
 				<InnerDiv>
 					<BoxText>
-						Well, if I may say so myself, that is. Ha! Who am I kidding! Ofcourse I may say so, I'm an awesome box after all!
+						{ this.props.mainText }
 					</BoxText>
 				</InnerDiv>
 			</OuterDiv>
